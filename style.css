@@ -1,0 +1,26 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  gap: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
